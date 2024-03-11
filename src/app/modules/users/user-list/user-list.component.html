@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-2 text-center">
+      <h4 class="my-5 ">
+      <a routerLink="#">Home</a>
+      </h4>
+      <h4>
+        <a routerLink="#">Users</a>
+      </h4>
+ 
+    </div>
+    <div class="col-10">
+
+       <h1 class="text-center">user list</h1>
+       <button style="float: right;" class="btn-success">add <i class="fa-solid  fa-user-plus" routerLink="/users/add"></i> </button>
+       <table class="shadow m-5">
+        <thead>
+           <tr class="border border-2">
+            <th class="border border-2">id</th>
+            <th class="border border-2">name</th>
+            <th class="border border-2">email</th>
+            <th class="border border-2">status</th>
+            <th class="border border-2">action</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr class="border border-2">
+                <td class="border border-2">346</td>
+                <td class="border border-2">sanoop</td>
+                <td class="border border-2">sanoop@gmail.com</td>
+                <td class="border border-2">active</td>
+                <td class="border border-2">
+                    <div>
+                        <i routerLink="edit/:id" class="fa-solid fa-pen text-success mx-4"></i>
+                        <i class=" fa-solid fa-trash text-danger"></i>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+       </table>
+    </div>
+</div>

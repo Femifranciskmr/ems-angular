@@ -1,0 +1,16 @@
+.col-2{
+    background-color: rgba(127, 255, 212, 0.499);
+    height: 800px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.card{
+    background-color: rgba(127, 255, 212, 0.499);
+    height:300px;
+}
+.admin{
+    background-color: rgba(127, 255, 212, 0.499);
+    height:500px;
+}
